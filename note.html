@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>我的笔记</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">TUTUTU</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>菜单</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">主页</a></li>
+											<li><a href="note.html"></a>笔记</li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="#">不要点</a></li>
+											<li><a href="#">这个也别点</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>HTML笔记</h2>
+							<p>自己看视频课程的时候做的笔记</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<p>1、文档声明标签
+									&lt;!DOCTYPE html&gt; 告诉浏览器这个页面采取html5版本来显示页面</p>
+
+								<p>2、lang标签&lt;html lang=”en”&gt;告诉浏览器或搜索引擎这是一个英文网站</p>
+								<p>3、段落标签 &lt;p&gt;&lt;/p&gt;   换行标签&lt;br /&gt;</p>
+								<p>4、文本格式化标签<br \>
+									<img src="images/note-html-1.png"></p>
+								<p>5、&lt;div&gt;和&lt;span&gt;标签<br \>
+									&lt;div&gt;&lt;/div&gt;     块元素    一行只能一个 可以理解为“大盒子”<br \>
+									&lt;span&gt;&lt;/span&gt;  行内元素  一行可以多个 可以理解为“小盒子”</p>
+
+								<hr />
+								<p>6、图像标签<br \>
+									&lt;img src=”img.jpg”/  alt= “图像显示不出时出现的替换文本”  title= “鼠标放在图像上的提示文本”&gt; 以及 宽weight、高height、边框粗细border</p>
+								<p>7、相对路径和绝对路径<br \>
+									<img src="images/note-html-2.png"><br \>
+									绝对路径是指目录下的绝对位置，从盘符开始的路径，也可以是网址<br \>
+									例：&lt;img src=”D:\images\xx.jpg”/&gt;或&lt;img src=”http://www.xx.com/xx.jpg”/&gt;
+								</p>
+								<p>8、超链接标签<br \>
+									&lt;a href=”http://www.baidu.com” target=”_blank”&gt;百度&lt;/a&gt;<br \>
+								   target打开窗口方式，默认是_self当前窗口打开，_blank为新窗口打开<br \>
+								   跳转空链接&lt;a href=”#”&gt;空&lt;/a&gt;<br \>
+								   网站内部链接可直接链接名称   &lt;a href=”index.html” &gt;首页&lt;/a&gt;   <br \>
+								   超链接可以添加：文本、图像、表格、音频、视频等</p>
+								<p>9、锚点链接<br \>
+									当我们点击时，会快速定位到页面中的某个位置<br \>
+								 链接文本的href设置属性值为#名字的形式，如&lt;a href=“#one”&gt;第一章&lt;/a&gt;<br \>
+								 目标位置加上id，如&lt;h3 id=“one”&gt;第一章&lt;/h3&gt;</p>
+								<p>10、注释标签<br \>
+									用于提示但不显示在页面中的文本<br \>
+									&lt;!-- 我是注释--&gt; 快捷键：ctrl+/</p>
+
+								<hr />
+								<p>11、特殊字符<br \>
+									空格符 &amp;nbsp； 大于号&amp;gt;  &amp;gt;  小于号&amp;lt;  &amp;lt;  和号&amp;  &amp;amp;</p>
+								<p>12、表格标签（重点） 严格嵌套<br \>
+									&lt;table&gt;  <br \>
+									&lt;tr&gt; 定义表格中的行<br \>
+										&lt;th&gt;表头默认加粗居中&lt;/th&gt;<br \>
+									&lt;td&gt;单元格&lt;/td&gt;<br \>
+									&lt;/tr&gt;<br \>
+									&lt;/table&gt;</p>
+								<p>13、表格属性 很少用于行内，多数情况用CSS来设置</p>
+								<p>14、“合并单元格”<br \>
+									Colspan=”合并单元格数量”   横向占据的单元格数量，可理解为宽度为几个单元格<br \>
+									rowspan=”合并单元格数量”   竖向占据的单元格数量，可理解为高度为几个单元格</p>
+								<p>15、列表标签<br \>
+									<img src="images/note-html-3.png"></p>
+								<hr />
+								<p>16、表单标签<br \>
+									完整的表单由表单域、表单控件（也称表单元素）、提示信息 三部分构成<br \>
+								 &lt;form&gt;定义一个表单域<br \>
+								 &lt;form action=“url地址” method=“提交方式(GET、POST)” name=“表单域名称”&gt;表单元素&lt;/form&gt;</p>
+								<p>17、表单元素<br \>
+									&lt;input type=”text”&gt;<br \>
+									<img src="images/note-html-4.png"></p>
+								<p>18、input属性<br \>
+									&lt;input type=”text”  name=”username”  value=“请输入用户名” maxlength=”8”&gt;<br \>
+									&lt;input type=”radio”  type=”checkbox”  name=”sex” checked=”checked”&gt;<br \>
+									<img src="images/note-html-5.png"><br \>
+									radio（或者checkbox）如果是同一组，我们必须给他们命名相同的name</p>
+								<p>19、&lt;label&gt;标签<br \>
+									&lt;label&gt;标签为input元素定义标注（标签），用于绑定一个表单元素，当点击&lt;label&gt;标签内的文本时，浏览器就会自动将光标转到或选择对应的表单元素上。<br \>
+									&lt;label  for=”sex”&gt;男&lt;/label&gt;<br \>
+									&lt;input  type=”radio”  name=”sex”  id=“sex” /&gt;<br \>
+									&lt;label&gt;标签的for属性应当与相关元素的id元素相同。</p>
+								<p>20、select下拉表单<br \>
+									&lt;select&gt;<br \>
+									&lt;option&gt;&lt;/option&gt;<br \>
+									&lt;option&gt;&lt;/option&gt;<br \>
+									&lt;option&gt;&lt;/option&gt;<br \>
+									&lt;/select&gt;<br \>
+									&lt;select&gt;中至少包含一对&lt;option&gt;<br \>
+									在&lt;option&gt;中定义selected=”selected”时，当前项即为默认选中项。</p>
+
+								<hr />
+								<p>21、&lt;textarea&gt;文本域标签<br \>
+									用于定义多行文本输入的控件<br \>
+									&lt;textarea rows=”3” cols=”20”&gt;&lt;/textarea&gt;<br \>
+									rows=“显示的行数”，cols=“每行中的字符数”，实际开发中很少用，都是用CSS来改变大小z。</p>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
